@@ -1,1 +1,1 @@
-import "./
+import "../vite-project/"
