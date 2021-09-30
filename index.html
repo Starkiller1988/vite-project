@@ -8,6 +8,25 @@
   </head>
   <body>
     <div id="app"></div>
+
+    <main>
+      <img class="mainimg" src=${avatarGenerator} alt="Selfhtml">
+      <h1>${firstNameGenerator} ${middleNameGenerator} ${lastNameGenerator}</h1>
+      <div>
+          <p><img class="icon" src="images/phone-solid.svg">${emailGenerator}</p>
+          <p><img class="icon" src="images/envelope-square-solid.svg">${telGenerator}</p>
+      </div>
+      <div>
+          <p>
+              Hey my name is ${firstNameGenerator}and I am a ${jobGenerator}. I was born in
+              the year of ${yearGenerator} in the city of ${cityGenerator}. My favorite
+              animal is the ${animalGenerator}. But I also love numbers! My favorite
+              one is ${numberGenerator}.
+          </p>
+      </div>
+      </main>
+
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
